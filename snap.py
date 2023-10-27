@@ -554,7 +554,7 @@ button3 = tk.Button(root, text="Exit", font=font, width=button_width, height=but
 button3.grid(row=3, column=0, pady=(10, 50), padx=20)
 
 
-photoimage = tk.PhotoImage(file="wow\nobg.png")
+photoimage = tk.PhotoImage(file="wow\\nobg.png")
 
 # Resize the image
 new_width = 400  # Adjust this value to resize the image
