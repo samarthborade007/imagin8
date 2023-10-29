@@ -1,16 +1,19 @@
-import pandas as pd
 import numpy as np
 import cv2
-import matplotlib.pylab as plt
 import cvzone
 import tkinter as tk
 from tkinter import filedialog
-from PIL import ImageTk, Image,ImageGrab
+from PIL import ImageTk, Image
 import sys
 import threading
-img_path = None  # Initialize img_path as a global variable
+
+
+# Global variables
+img_path = None
 img_display = None
 live_label = None
+
+
 # Create the main application window
 root = tk.Tk()
 root.title("imagin8")

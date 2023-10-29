@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+cvzone = "~=1.6.1"
+Pillow = "~=10.1.0"
+numpy = "~=1.26.1"
+opencv-python = "~=4.8.1"
+tk = "~=0.1"
+
+[dev-packages]
+matplotlib = "*"
